@@ -1,3 +1,5 @@
+
+
 body {
     font-family: Roboto, sans-serif;
     
@@ -8,4 +10,22 @@ a {
 
 ul {
     list-style-type: none;
+}
+
+.logo{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        /* identical to box height */
+    
+        letter-spacing: 0.03em;
+    
+        color: #000000;
+}
+
+.logo-web {
+    color: #2196F3;
+
 }
