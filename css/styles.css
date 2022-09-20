@@ -106,7 +106,6 @@ h2 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.17;
-    text-align: center;
     color: var(--title-text-color);
 }
 
@@ -145,7 +144,6 @@ footer .logo {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
-    text-align: center;
     background-color: var(--filter-background-color);
     border-radius: 4px;
 }
