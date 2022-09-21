@@ -140,7 +140,7 @@ footer .logo {
     text-decoration: none;
 }
 
-.list .filter {
+.list .filter-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
@@ -148,8 +148,8 @@ footer .logo {
     border-radius: 4px;
 }
 
-.list .filter:hover,
-.list .filter:focus  {
+.list .filter-item:hover,
+.list .filter-item:focus  {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
