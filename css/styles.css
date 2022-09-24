@@ -22,11 +22,11 @@ body {
   text-decoration: none;
 }
 
-header {
+.header {
   background-color: var(--main-background-color);
 }
 
-header .logo {
+.header .logo {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -71,7 +71,7 @@ header .logo {
   list-style-type: none;
 }
 
-.site-nav .curent {
+.site-nav .current {
   color: var(--accent-text-color);
 }
 
@@ -103,7 +103,7 @@ header .logo {
   color: var(--second-text-color);
 }
 
-h2 {
+.title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
@@ -183,3 +183,4 @@ footer .logo {
   line-height: 1.875;
   color: var(--description-text-color);
 }
+
