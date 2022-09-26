@@ -1,4 +1,4 @@
-/* Сommon styles */
+/* Common styles */
 
 :root {
   --main-background-color: #ffffff;
@@ -176,9 +176,6 @@ body {
   text-align: center;
   background-color: var(--accent-text-color);
   color: var(--second-text-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -187,7 +184,7 @@ body {
   border: 1px solid #eeeeee;
 }
 
-.examples h3 {
+.examples .list-item__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -195,8 +192,7 @@ body {
   color: var(--title-text-color);
 }
 
-.examples p {
-  font-weight: 400;
+.examples .list-item__text {
   font-size: 16px;
   line-height: 1.875;
   color: var(--description-text-color);
